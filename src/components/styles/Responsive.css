@@ -1,0 +1,15 @@
+.contenedor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* responsive.css */
+@media screen and (min-width: 1200px) {
+
+    /* Cuando el ancho de la pantalla es de 1200px o más */
+    .contenedor-cards  {
+        width: 22%;
+        /* Reducimos un poco el ancho para ajustar 4 cards por fila */
+    }
+}
